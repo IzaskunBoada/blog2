@@ -1,0 +1,878 @@
+/*12...15-04-2016 (2/32): Hoja de estilo para imprimir sólo listados*/
+@import url("imprimir.css");
+/*Fin de 12...15-04-2016 (2/32)*/
+
+#inicio
+{
+    width:1000px;
+    margin:0 auto;
+    position:relative;
+    margin-top:30px;
+    padding:25px;
+    background-color:#FFF;
+    border:1px solid #F0F0F0;
+    width:960px;
+}
+
+.flechas-navegacion
+{
+    cursor: pointer;
+}
+
+table
+{
+    font-family: 'Lato',Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    
+}
+
+select
+{
+    width: 85px;
+    margin-right: 5px;
+    font-family: 'Lato',Arial,Helvetica,sans-serif;
+    font-size: 12px;
+}
+
+input
+{
+    border-radius: 1px;
+    border:1px solid #BFBFBF;
+}
+
+input[readonly="readonly"], input[disabled="disabled"], textarea[readonly="readonly"]
+{
+    background-color:#C0C0C0 !important;
+}
+
+/*12...15-04-2016 (3/32): Hoja de estilo para imprimir sólo listados*/
+table[id^="tablaFiltrado"]
+{
+    float: left;
+}
+
+#imprimirListado
+{
+    cursor: pointer;
+    float: right;
+    width: 24px;
+    height: 24px;
+    margin-top: 12px;
+}
+/*Fin de 12...15-04-2016 (3/32)*/
+
+.close-icon
+{
+    float: right;
+    margin-top: -18px;
+    margin-right: -18px;
+}
+
+.close-icon2
+{
+    float: right;
+    margin-top: -15px;
+}
+
+.titulo-form
+{
+    font-weight: normal;
+	background: #E9E9E9;
+	border-color: #E1E1E1;
+    border-style: solid solid none;
+    border-width: 8px 8px medium;
+    border-radius: 2px 2px 0px 0px;
+    color: #333333;
+    height: 55px;
+    line-height: 55px;
+    margin: 0;
+    text-shadow: 0 1px 1px #FFFFFF;
+    text-transform: uppercase;
+    border-bottom:solid 1px #D1D1D1;
+    width: auto;
+}
+
+.titulo-form img, .titulo-form h2
+{
+	float:left;
+    margin-left:10px;
+}
+
+.titulo-form img
+{
+	width: 40px;
+	height: 40px;
+	margin: 10px;
+}
+
+.contenedor-botones
+{
+    overflow: hidden;
+    height: 55px;
+    padding:16px 0;
+}
+
+.contenedor-botones input, .contenedor-botones select
+{
+    float:right;
+}
+
+.contenedor-form
+{
+	padding:0px 8px 8px 8px;
+	background: linear-gradient(#F2F2F2,#E1E1E1);
+	background: -moz-linear-gradient(#F8F8F8,#E1E1E1);
+	border-radius: 0px 0px 2px 2px;
+}
+
+.form-crear
+{
+	background: linear-gradient(#FAFAFA,#E9E9E9);
+	background: -moz-linear-gradient(#FAFAFA,#E9E9E9);
+	padding:25px 10px 15px;
+}
+
+.form-crear select
+{
+    padding: 2px 0px;
+    width: 85px;
+    border-color: #BFBFBF;
+}
+
+.btn-form
+{
+	font-family: "Roboto" !important;
+    font-weight: bold;
+	background: linear-gradient(#404040, #212121) repeat;
+	background: -moz-linear-gradient(#404040, #212121) repeat;
+    border: medium none;
+    border-radius: 5px;
+    box-shadow: 0 1px 0 #000000;
+    color: #FFFFFF;
+    font-size: 9px !important;
+    height: 22px;
+    line-height: 22px;
+    padding: 0 15px;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+    text-transform: uppercase;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.btn-accept, .btn-cancel
+{
+    padding:0px 3px;
+    margin-right: 3px;
+}
+
+.btn-cancel
+{
+    padding: 0 5px;
+}
+
+.cajas-input
+{
+    border: 1px solid #BFBFBF;
+    color: black;
+    padding: 4px 8px;
+    width: 260px;
+    background-color:#FFF;
+    margin:3px 0;
+    font-family: 'Lato',Arial,Helvetica,sans-serif;
+    font-size: 12px;
+}
+
+.textarea-form
+{
+    resize: vertical;
+    border: 1px solid #BFBFBF;
+    color: black;
+    padding: 4px 8px;
+    background-color:#FFF;
+    margin:3px 0;
+    font-family: 'Lato',Arial,Helvetica,sans-serif;
+    font-size:12px;
+}
+
+.ancho-grande
+{
+    width: 180px !important;
+}
+
+.ancho-medio
+{
+    width:130px !important;
+}
+
+.ancho-estrecho
+{
+    width: 90px !important;
+}
+
+.ancho-enano
+{
+    width: 60px !important;
+}
+
+.ancho-enano2
+{
+    width: 40px !important;
+}
+
+label 
+{
+      display: block;
+}
+label[for="aerolineaNuevoProveedor"], label[for="vender-si"], label[for="vender-no"], label[for="ver-si"], label[for="ver-no"]
+{
+    display: inline-block !important;
+}
+
+.ancho-direccion
+{
+    width:800px !important;
+}
+
+.ancho-completo
+{
+    width: 100%;
+}
+
+.contenedor-listado, #capaProyectos, #capaProgramas
+{
+    padding: 15px 0px;
+    overflow: auto;
+}
+
+#tablaResultadoPaqueteServicios td:nth-child(1), #tablaResultadoPaqueteServicios td:nth-child(2)
+{
+    width: 55px;
+}
+
+#tablaResultadoPaqueteServicios td:last-child
+{
+    width: 80px;
+}
+
+#tablaResumenServiciosPresupuesto td:nth-child(2)
+{
+    width: 140px;
+}
+
+#tablaResumenServiciosPresupuesto td:nth-child(11)
+{
+    width: 45px;
+}
+
+.tabla-listado
+{
+    border-collapse: collapse;
+    font-size:12px;
+}
+
+.tabla-listado th
+{
+    background: #363636;
+    color:#FFFFFF;
+    padding: 5px 10px;
+    text-align: left;
+}
+
+.tabla-listado td
+{
+    padding:0 5px;
+}
+
+.tabla-listado .moneda
+{
+    text-align: center;
+}
+
+.tabla-detalles
+{
+    border:solid 1px;
+    border-collapse: collapse;
+    font-size: 12px;
+    width: 100%;
+}
+
+.tabla-detalles th
+{
+    background: #A6A6A6;
+    color:#000000;
+    border-bottom:solid 1px;
+}
+
+.tabla-detalles td
+{
+    padding:3px;
+}
+
+.tabla-detalles img
+{
+    vertical-align: middle;
+}
+
+.tablaPrecios td
+{
+    border: solid 1px;
+}
+
+.tablaPrecios th
+{
+    background:  #D5D5D5 !important;
+}
+
+.cerrar-modificar
+{
+    float: right;
+    margin-top:3px;
+    cursor: pointer;
+}
+
+.tabla-modificardetalles
+{
+    width: 950px;
+    padding:0px 5px 5px;
+}
+
+.tabla-modificardetalles img
+{
+    vertical-align: middle;
+}
+
+.tabla-modificardetalles select
+{
+    width: 180px;
+}
+
+.select-moneda
+{
+    width: 85px !important;
+}
+
+.campo-oculto
+{
+    display:none;
+}
+
+.odd
+{
+    background: #E9E9E9 !important;
+}
+
+.flechas-navegacion
+{
+    cursor: pointer;
+}
+
+.descripcion-moneda
+{
+    padding-right: 100px !important;
+}
+
+.nombre-suplemento
+{
+    padding-right: 50px !important;
+}
+
+.nombre-traslado
+{
+    padding-right: 200px !important;
+}
+
+.tipo-promocion
+{
+    padding-right:120px !important;
+}
+
+.caja-buscar
+{
+    margin:0px;
+    margin-right: 10px;
+}
+
+.contenedor-radio > label
+{
+    margin-right: 10px;
+    font-size:14px;
+}
+
+.form-clientes
+{
+    margin:50px;
+    padding:20px;
+    border: 1px solid #F0F0F0;
+}
+
+.lista-requisitos
+{
+    font-family: 'Lato',Arial,Helvetica,sans-serif;
+    font-size:10px;
+}
+
+.tabla-inline
+{
+    display: inline-block;
+    vertical-align: top;
+}
+
+#tipoNuevaPromocion
+{
+    width:140px;
+}
+
+.select-codigo
+{
+    width:40px !important;
+}
+
+.select-codigo2
+{
+    width:50px !important;
+}
+
+.tabla-presupuesto
+{
+    float:left;
+}
+
+#itinerario
+{
+    height: 200px;
+    overflow-y: scroll;
+    margin-bottom:20px;
+    padding: 10px;
+    background-color: #C0C0C0;
+    border: solid 1px #C0C0C0;
+}
+
+#itinerario .cajas-input
+{
+    padding: 2px 4px;
+    margin:0px;
+}
+
+.con-margen td
+{
+    padding: 0px 15px;
+}
+
+.tabla-izquierda
+{
+    float:left;
+    margin-top:15px;
+}
+
+.tabla-derecha
+{
+    float:right;
+    margin-top:15px;
+}
+
+#tablaInsercionServicio, #tablaInsercionHotel, #tablaInsercionPaquete, #tablaVistaPreviaPaquete
+{
+    padding-top:5px;
+}
+
+#resumenOculto h3
+{
+    cursor: pointer;
+}
+
+.tipo-resumen
+{
+    background: #C1C1C1;
+    font-weight: bold;
+    font-size: 12px;
+    cursor: pointer;
+    
+}
+
+.abrirtextarea
+{
+    margin:5px;
+}
+
+.tabla-scroll
+{
+    min-height: 200px;
+    max-height:300px;
+    overflow: auto;
+}
+
+.ancho-minimo
+{
+    min-width: 340px;  
+}
+
+.tabla-itinerario
+{   
+    overflow: auto;
+    height: 165px;
+    width: 350px;
+}
+#dvLoading{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url('../../imagenes/loading.gif') 50% 50% no-repeat rgb(249,249,249);
+}
+
+.desactivarServicio{
+    background: linear-gradient(#DF0101, #B40404) repeat;
+    background: -moz-linear-gradient(#DF0101, #B40404) repeat;
+    box-shadow: 0 1px 0 #ffffff;
+}
+.activarServicio{
+    background: linear-gradient(#01DF01, #5FB404) repeat;
+    background: -moz-linear-gradient(#01DF01, #5FB404) repeat;
+    box-shadow: 0 1px 0 #ffffff;
+}
+.tablaMostrarUsuariosOficina tbody{
+    font-size: 10px;
+}
+#tablaListadoUsuariosProveedor tbody{
+    font-size: 10px;
+}
+ 
+.tablaTarifasCrucero td
+{
+    padding: 0px !important;
+}
+
+.imagen-buscar
+{
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
+
+#formCrearNuevoPresupuesto #ocupacion1, #formCrearNuevoPresupuesto #ocupacion2, #formCrearNuevoPresupuesto #ocupacion3
+{
+    width: 100%;
+}
+
+.tabla-precio-presupuesto
+{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.tabla-precio-presupuesto td
+{
+    border: solid 1px;
+    background-color: white;
+}
+
+.tabla-precio-presupuesto .subtitulo
+{
+    background-color: #808080;
+    color: #FFFFFF;
+    font-weight: bold;
+    border-color: #000000;
+}
+
+.tabla-precio-presupuesto td, .tabla-precio-presupuesto input[type='text']
+{
+    text-align: right;
+    padding-right: 15px;
+}
+
+.tabla-precio-presupuesto thead tr:nth-child(1) th
+{
+    border: solid 1px;
+
+}
+
+.tabla-precio-presupuesto .vacio
+{
+    background-color: transparent;
+    color: #000000;
+    border: none !important;
+}
+
+#ocupacion1 td:nth-child(6), #ocupacion2 td:nth-child(6), #ocupacion3 td:nth-child(6), #ocupacion1 td:nth-child(7), #ocupacion2 td:nth-child(7), #ocupacion3 td:nth-child(7)
+{
+    padding: 0px;
+    text-align: center;
+    border:none;
+    background-color: transparent;
+}
+
+.subtituloCancelacion{
+    font-size:11px;
+    font-weight: bold;
+    padding-left:2mm;
+    padding-right:2mm;
+}
+.textoCancelacion{
+    font-size:10px;
+    padding-left:2mm;
+    padding-right:2mm;
+    text-align: left;
+}
+.titulo {
+    font-size:16px;
+    font-weight: bold;
+}
+
+.celda-precio
+{
+    text-align: right;
+    padding-right: 15px !important;
+}
+
+.campo-mayusculas
+{
+    text-transform: uppercase;
+}
+
+input.margen-agencia[type=number]::-webkit-inner-spin-button, 
+input.margen-agencia[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+/* begin: jQuery UI Datepicker moving pixels fix */
+    table.ui-datepicker-calendar {border-collapse: separate;}
+    .ui-datepicker-calendar td {border: 1px solid transparent;}
+/* end: jQuery UI Datepicker moving pixels fix */
+
+/* begin: jQuery UI Datepicker emphasis on selected dates */
+.ui-datepicker .ui-datepicker-calendar .ui-state-highlight a {
+    background: #363636 none; /* a color that fits the widget theme */
+    color: white; /* a color that is readeable with the color above */
+}
+
+#multi-fechas-picker, div.ui-datepicker{
+ font-size:10px;
+}
+.tabla-datosBasicos{
+    width: 100%;
+}
+
+
+.centrar
+{
+    text-align: center;
+}
+
+/*Datos Proveedor*/
+
+#tablaDatosProveedor th
+{
+background-color:#323232;
+color:#fff;
+font-weight:bold;
+text-align:center;
+
+}
+
+#datosProveedor td 
+{
+
+ text-align: center;
+
+}
+
+.ancho-paisCiudad /*los dropdownlist de país y ciudad en la misma línea*/
+{
+    width: 49.5%;
+}
+/*Presupuestos Agente*/
+#capaMensajesPendientes
+{
+   background-color:#ffc0cb;
+   margin:7px 0 0 0; 
+   padding:10px 0 13px 0;
+   text-align: center;
+}
+
+.cerrarMensajesPendientes
+{
+    border-radius:5px;
+    background-color:#363636;
+    color:#FFFFFF;
+    cursor:pointer;   
+    font-family: "Roboto";
+    font-weight:bold;
+    font-size:9px;
+    margin:0 0 0 103px;
+    padding:5px 15px 8px 15px;
+}
+
+.mensajesPresupuesto
+{
+    cursor:pointer;
+    font-weight:bold;
+}
+#filtroAgentePresupuesto, #filtroPaisPresupuesto, #filtroPaisPrograma, #filtroCiudadPrograma, #filtroPaisPresupuestoWeb 
+{
+    margin-bottom: 7px;
+    padding:3px;
+
+}
+#agentePresupuesto, #paisPresupuesto, #paisPrograma, #ciudadPrograma , #paisPresupuestoWeb
+{   
+    margin-bottom: 2px;
+    padding: 2px;
+    text-align: center;
+}
+#fechaPresupuesto, #apellidoPresupuesto
+{
+    text-align: center;
+}
+#filtroAntiguosPresupuesto, #filtroPropioPresupuesto, #filtroPropioExtra
+{
+    width:100%;
+}
+#verAntiguosPresupuesto, #soloPropiosPresupuesto
+{
+    margin-bottom: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#filtroPropioPrograma, #filtroClientesPresupuestoWeb
+{
+    margin-top: 15px;
+    text-align: center;
+    width: 100%;
+}
+#tipoPrograma, #soloPropiosPrograma, #soloPropiosCircuito, #soloPropiosHotel, #soloPropiosExcursion, #soloPropiosTraslado
+{
+    margin-bottom: 10px;
+    text-align: center;
+}
+#localizadorPresupuesto
+{ 
+    margin-bottom: 1px;
+    margin-top: -2px;
+    text-align: center;
+}
+#soloPropiosExtraAgente, #soloPropiosExtra
+{
+    text-align: center;
+}
+#filtroPropioExtraAgente
+{
+    margin-bottom: 2px;
+    margin-top: -11px; 
+    width:100%;
+}
+
+#filtroPropioExcursion
+{
+    margin-bottom: 2px;
+    width:100%;
+   
+}
+#filtroPaisPlantilla
+{
+    padding:3px;
+}
+#paisPlantilla
+{
+    padding:2px;
+}
+#lista-emailscliente, #lista-emailsproveedores
+{
+    margin-left:10px
+}
+#lista-emailscliente span, #lista-emailsproveedores span
+{
+    font-weight: bold;
+    float: left;
+}
+#lista-emailscliente span:first-of-type, #lista-emailscliente p+span, #lista-emailsproveedores span:first-of-type, #lista-emailsproveedores p+span
+{
+    margin-right: 20px;
+}
+
+/*gestion agencias/modificar agencia/textos agencia*/
+.formatoTexto
+{
+    background-color:#363636;
+    border-radius:5px;
+    color:#FFFFFF;
+    font-family:"Roboto";
+    font-size:9px;
+    font-weight:bold;
+    margin:0 3px 0 50px;
+    padding:5px 15px 8px 15px;
+   
+}
+.cajaFormatoTexto
+{
+    background-color:#cccccc;
+    border:1px solid #aaaaaa;
+    padding-bottom:15px;
+    padding-top:7px;
+    padding-left:5px;
+    
+}
+/*Destinos modificar/borrar pais*/
+input[type=file]#imagenPais
+{
+    padding:12px 0 0 0;
+}
+/* crearFilaSuplementoHotel*/
+
+/*#supCat1
+{
+    margin-left:118px;
+    
+    border: 1px solid #999;
+    box-shadow: 0 0 10px 0 #363636;
+    -webkit-box-shadow: 0 0 10px 0 #363636;
+    -moz-box-shadow: 0 0 10px 0 #363636;
+    
+}
+#supCat2
+{
+    border: 1px solid #999;
+    
+   box-shadow: 0 0 10px 0 #363636;
+    -webkit-box-shadow: 0 0 10px 0 #363636;
+    -moz-box-shadow: 0 0 10px 0 #363636;
+   
+}
+#supCat3
+{
+    border: 1px solid #999;
+ 
+    box-shadow: 0 0 10px 0 #363636;
+    -webkit-box-shadow: 0 0 10px 0 #363636;
+    -moz-box-shadow: 0 0 10px 0 #363636;
+
+}*/
+
+/*mostrarHoteles.php agregar tarifas*/
+.anchoPrecioHotelCat
+{
+    width:85px;
+}
+.anchoPrecioCruceroCat3
+{
+    width:117px;
+}
+.anchoFechaFin
+{
+    width:110px;/*ancho minimo máximo para que se vea bien en firefox,si no, el botón de Promoción se descoloca*/
+}
+
+/* Para ocultar y mostrar la tabla de tarifas antiguas a la fecha*/
+.mostrarTarifaOculta{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* Permisos proveedor */
+#tabs_informacion_proveedor-4 select {
+    width: 160px;
+}

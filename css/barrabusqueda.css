@@ -1,0 +1,41 @@
+.tabla-buscador
+{
+
+}
+
+.tabla-buscador select
+{
+	font-family: 'Lato',Arial,Helvetica,sans-serif;
+	border: 1px solid #BFBFBF;
+}
+
+#servicio
+{
+	width: 110px;
+}
+
+.paisciudad
+{
+	width: 140px;
+	text-transform: capitalize;
+}
+
+.btn-buscar
+{
+	font-family: "Roboto";
+    font-weight: bold;
+	background: linear-gradient(#404040, #212121) repeat;
+	background: -moz-linear-gradient(#404040, #212121) repeat;
+    border: medium none;
+    border-radius: 5px;
+    box-shadow: 0 1px 0 #000000;
+    color: #FFFFFF;
+    font-size: 9px;
+    height: 22px;
+    line-height: 22px;
+    padding: 0 15px;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+    text-transform: uppercase;
+    margin:10px 5px;
+}

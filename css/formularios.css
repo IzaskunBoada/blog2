@@ -1,0 +1,122 @@
+ #contenedor{
+    margin: 50px auto;
+    margin-top: 100px;
+    height:auto;
+    width:500px;
+    background: none;
+}
+
+.titulo-form
+{
+    font-family: league-gothic, Arial;
+    font-weight: normal;
+	background: #E9E9E9;
+	border-color: #E1E1E1;
+    border-style: solid solid none;
+    border-width: 8px 8px medium;
+    border-radius: 2px 2px 0px 0px;
+    color: #333333;
+    font-size: 25px;
+    height: 55px;
+    line-height: 55px;
+    margin: 0;
+    text-shadow: 0 1px 1px #FFFFFF;
+    text-transform: uppercase;
+}
+
+.contenedor-form
+{
+	padding:0px 8px 8px 8px;
+	border-top:solid 1px #D1D1D1;
+	background: linear-gradient(#F2F2F2,#E1E1E1);
+	background: -moz-linear-gradient(#F8F8F8,#E1E1E1);
+	border-radius: 0px 0px 2px 2px;
+}
+
+.form-login, .form-registro
+{
+	background: linear-gradient(#FAFAFA,#E9E9E9);
+	background: -moz-linear-gradient(#FAFAFA,#E9E9E9);
+	padding:10px 0px 5px;
+}
+
+input
+{
+    border-radius: 1px;
+    border:1px solid #BFBFBF;
+}
+
+.usuario, .pass, .tlf, .email, .username, .cajas-input
+{
+    border: 1px solid #BFBFBF;
+    color: black;
+    padding: 4px 8px;
+    width: 160px;
+    background-color:#FFF;
+    margin:3px 0;
+    font-family: 'Lato',Arial,Helvetica,sans-serif;
+    font-size: 12px;
+}
+
+.btn-enviar, .btn-registro
+{
+    font-family: "Roboto";
+    font-weight: bold;
+    background: linear-gradient(#404040, #212121) repeat;
+    background: -moz-linear-gradient(#404040, #212121) repeat;
+    border: medium none;
+    border-radius: 5px;
+    box-shadow: 0 1px 0 #000000;
+    color: #FFFFFF;
+    font-size: 9px;
+    height: 22px;
+    line-height: 22px;
+    padding: 0 15px;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+
+.enlace-pass:active, .enlace-pass:visited, .enlace-pass:link
+{
+   color:#212062; 
+   font-weight: bold;
+   text-decoration: none;
+   margin:0px 6px;
+}
+
+.usuario-imagen
+{
+    background-position: 3px;
+    padding-left: 20px; 
+    width:150px;
+    background-image: url(../../imagenes/login-user.png);
+    background-repeat: no-repeat;
+}
+
+.pass-imagen
+{
+    background-position: 3px;
+    padding-left: 20px; 
+    width:150px;
+    background-image: url(../../imagenes/login-pass.png);
+    background-repeat: no-repeat;
+}
+
+.tabla-login
+{
+    margin-bottom:10px;
+}
+
+.tabla-login td
+{
+    padding:3px;
+}
+
+.capa-registro
+{
+    width: 100%;
+    border-top:solid 1px #BFBFBF;
+    padding-top:5px;
+}

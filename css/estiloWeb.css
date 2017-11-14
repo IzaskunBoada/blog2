@@ -1,0 +1,163 @@
+body
+{
+    background: none repeat scroll 0 0 #FFFFFF;
+    color: #000000;
+    font-family: 'Lato',Arial,Helvetica,sans-serif;
+    font-size: 13px;
+    line-height: 1.5em;
+    margin:0px;
+}
+
+h2:not(.titulo)
+{
+    font-family: league-gothic, Arial;
+    font-weight: normal;
+    color: #333333;
+    margin: 0;
+    text-shadow: 0 1px 1px #FFFFFF;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+h3:not(.subtituloCancelacion):not(.titulo-form) 
+{
+    font-family: league-gothic, Arial;
+    font-weight: normal;
+    color: #333333;
+    margin: 5px;
+    text-shadow: 0 1px 1px #FFFFFF;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+h4
+{
+    font-family: league-gothic, Arial;
+    font-weight: normal;
+    color: #333333;
+    margin: 5px;
+    text-shadow: 0 1px 1px #FFFFFF;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+#cabecera
+{
+    background: url('../imagenes/top_header_bg.jpg') repeat-x scroll 0 0 #282828;
+    height:130px;
+    margin:0px;
+    margin-top: -10px;
+    border-bottom: 4px solid #D2D2D2;
+}
+
+#contenedor-cabecera
+{
+    width: 960px;
+    margin:0 auto;
+    position: relative;
+}
+
+.logo
+{
+    height: 133px;
+    position: absolute;
+    width: 160px;
+    margin-top: 10px;
+}
+
+.img-logo
+{
+    max-height: 130px;
+    max-width: 230px;
+}
+
+.img-logo2
+{
+    height:77px;
+    width: 70px;
+    margin:-3px 33px 0px;
+
+}
+
+.logos-web a:link,.logos-web a:visited,.logos-web a:hover,.logos-web a:active
+{
+    color: rgba(255,255,255,0);
+
+    text-shadow:none;
+}
+
+.header-right, .tabla-header
+{
+    color: #212062;
+    font-size: 20px;
+    text-shadow: 0 1px 1px #000000;
+}
+
+.header-right
+{
+    margin:0px !important;
+    height: 38px;
+}
+
+.tabla-header
+{
+    border-collapse: collapse;
+}
+
+.tabla-header td
+{
+    padding-top: 5px;
+}
+
+.texto-usuario
+{
+    font-size: 12px;
+    font-weight: bold;
+    text-shadow:none;
+    padding-right:15px;
+    text-align: left;
+}
+
+.cerrarsesion
+{
+    padding-right:250px;
+}
+
+.texto-usuario a:link,.texto-usuario a:visited,.texto-usuario a:hover,.texto-usuario a:active
+{
+    color: #212062;
+}
+
+.telefono
+{
+    float: right;
+    line-height: 29px;
+    margin-left: 40px;
+    text-align: right;
+}
+
+
+.telefono strong
+{
+    color: #CEE914;
+    font-size: 25px;
+    text-shadow: 0 1px 1px #000000;
+}
+
+.datos-proveedor
+{
+    padding: 25px 0px 20px 250px 
+}
+
+.datos-proveedor img
+{
+    max-width: 50px;
+}
+
+
+.barra-busqueda
+{
+    height: 52px;
+    clear: right;
+    float:right;
+}
